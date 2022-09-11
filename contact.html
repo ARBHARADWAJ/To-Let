@@ -12,18 +12,10 @@ family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=s
 rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
 awesome/4.7.0/css/font-awesome.min.css">
-<style>
 
-    .code{
-        height: 100px;
-        background-color: initial;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-</style>
 </head>
 <body>
-    <section class="header">
+    <section class="sub-header">
         <nav>
             <a href="index.html"><img src="images/logo.jpg" alt=""></a>
             <div class="nav-links" id="navLinks">
@@ -36,22 +28,57 @@ awesome/4.7.0/css/font-awesome.min.css">
                     <li><a href="ologin.html">Owner Login</a></li>
                     <li><a href="registert.html">Register</a></li>
                     <li><a href="contact.html">CONTACT US</a></li>
-                    <li><a href="comment.php">COMMENT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <div class="text-box">
-            <div class="text-1">Hello,We from <span>TO-LET</span></div>
-            <div class="text-2">providing servises with secure</div>
-            <div class="text-3">And good <span>specilities</span></div>
-            <a href="search.php">BOOK NOW</a>
-        </div>
+        <h1>CONTACT</h1>
     </section>
 
-    <section class="code">
-       Finding the best place is a difficult task our problem statement to fidn the place in ease ,So we deveoped this site in a full functional way.
-       we covered mot of the part on the search and also woth the hostel details.
+    <!-- contact information -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15260.09951080529!2d77.95470012581882!3d17.022449762771043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbd5d79c0909af%3A0xe449117d8c51885a!2sMalkapahad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1642739298824!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-me">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>vachya nayak thanda</h5>
+                        <p>malkapahad,509207</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 9959382474</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>197r1a0520@cmrtc.ac.in</h5>
+                        <p>my email</p>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <div class="contact-col">
+
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="message" required></textarea>
+                        <button type="submit" class="hero-btn">Send message</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- footer -->
@@ -69,4 +96,4 @@ awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="script.js"></script>
 </body>
-</html>
+</html>>

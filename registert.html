@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            color:black;
+        }
+        .header{
+            margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("images/1649915059434.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.my{
+    color:white;
+    text-align: center;
+}
+.myclass{
+    position: absolute;
+    left: 27%;
+    background-color: white;
+    opacity: .7;
+}
+    </style>
+    <title>Tenant registeration</title>
+</head>
+<body>
+    <section class="header">
+
+    
+    <h1 class="my"><u>Tenant registration</u></h1>
+    <form action="register.php" method="post" class="myclass">
+        <Label>Full Name: </Label><input type="text" id="fname" name="fname" ><br><br><br>
+        <label>Date of Birth</label><input type="date" name="da" id="da" ><br><br><br>
+        <label>Password: </label><input type="password" id="pa" name="pa"><br><br><br>
+        <label>Phone number</label><input type="number" name="num" id="num" ><br><br><br>
+        <label>Address :</label><input type="text" id="ad" name="ad"><br><br><br>
+        <label>Aadhaar card Copy:</label><input type="file" name="file" class="file" enctype="multipart/form-data"><br><br> <br>  
+        <input type="submit" value="Submit details"  id="submit" class="submit">
+
+
+
+    </form>
+</section>
+</body>
+</html>
